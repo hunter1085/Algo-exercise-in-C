@@ -66,3 +66,12 @@ int main(){
     }
     return 0;
 }
+
+// The result output as following:
+// max zeros for 0x238 is 3, expected zeros: 3, test result: [pass]
+// max zeros for 0x1022 is 6, expected zeros: 6, test result: [pass]
+// max zeros for 0x10 is 0, expected zeros: 0, test result: [pass]
+// max zeros for 0x211 is 4, expected zeros: 4, test result: [pass]
+// max zeros for 0xf is 0, expected zeros: 0, test result: [pass]
+// max zeros for 0x411 is 5, expected zeros: 5, test result: [pass]
+// max zeros for 0x0 is 0, expected zeros: 0, test result: [pass]
