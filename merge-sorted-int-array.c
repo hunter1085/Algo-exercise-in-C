@@ -81,7 +81,21 @@ int main() {
     int nums5[]={0},nums6[1]={};
     merge(nums5,1,0,nums6,1,1);
     for(i = 0; i < 1; i++){
-        printf("nums3[%d]=%d\n",i,nums5[i]);
+        printf("nums5[%d]=%d\n",i,nums5[i]);
     }
     return 0;
 }
+
+
+/* The output result:
+nums1[0]=1
+nums1[1]=2
+nums1[2]=2
+nums1[3]=3
+nums1[4]=5
+nums1[5]=6
+------------
+nums3[0]=1
+------------
+nums5[0]=0
+*/
